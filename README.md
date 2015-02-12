@@ -8,7 +8,7 @@ training data.
 - MongoDB (Because NoSQL is future)
 - Some type of image capture program
     - OSX: I suggest imagesnap (`brew install imagesnap`, if you have brew)
-    - Other UNIX: ¯\_(ツ)_/¯ 
+    - Other UNIX: ¯\\_(ツ)_/¯ 
 
 ## Configure
 
