@@ -1,0 +1,27 @@
+{
+  "name": "opencv_tutorial",
+  "version": "0.0.1",
+  "description": "A Node script to capture 10 images per user to use as facial recognition training data.",
+  "main": "prompt.js",
+  "dependencies": {
+    "mongoose": "^3.8.23",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node prompt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecalvinchan/how_to_train_your_face"
+  },
+  "keywords": [
+    "opencv"
+  ],
+  "author": "Calvin Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecalvinchan/how_to_train_your_face/issues"
+  },
+  "homepage": "https://github.com/thecalvinchan/how_to_train_your_face"
+}
