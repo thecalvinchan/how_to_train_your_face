@@ -34,14 +34,14 @@ fs.mkdir(IMAGE_DIR, function(err) {
                 var image_cmd = IMAGE_CMD + ' ' + IMAGE_DIR + username + '_' + id + '_';
                 var pictures = [];
                 for (var i = 0; i < 10; i++) {
-                    exec(image_cmd + i, (function (photo_num) { return function(err, stdout, stderr) {
+                    exec(image_cmd + i + '.jpg', (function (photo_num) { return function(err, stdout, stderr) {
                         if (err) {
                             return onErr(err);
                         } else if (stderr) {
                             return onErr(stderr);
                         }
                         pictures.push({
-                            url: IMAGE_DIR + username + '_' + id + '_' + photo_num
+                            url: IMAGE_DIR + username + '_' + id + '_' + photo_num + '.jpg'
                         });
                         if (pictures.length == 10) {
                             console.log('Success: Thanks for participating, ' + result.name + '!');
