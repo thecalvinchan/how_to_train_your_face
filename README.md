@@ -1,4 +1,4 @@
-#How To Train Your Face
+# How To Train Your Face
 
 A Node script to capture 10 images per user to use as facial recognition
 training data.
